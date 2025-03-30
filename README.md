@@ -18,23 +18,23 @@
 
 # How To Use 🧠
 
-1) Create a repo from this template 🪧
-2) Clone the repo on your machine 🖨️
+- Create a repo from this template 🪧
+- Clone the repo on your machine 🖨️
 ```sh
 git clone [repo-url]
 ```
-3) Init the submodules 🎬
+- Init the submodules 🎬
 ```sh
 git submodule init
 git submodule update
 ```
-4) Build the project using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>
+- Build the project using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>
    - Windows 🪟
 ```sh
 .\scripts\premake5.exe vs2022
 ```
 
-5) <a href=""><img src="https://cdn-icons-png.flaticon.com/256/8819/8819105.png" align="center" width=200/></a>
+- <a href=""><img src="https://cdn-icons-png.flaticon.com/256/8819/8819105.png" align="center" width=200/></a>
 
 # QILTBA (Questions I'd like to be asked) 🤙😞
 
