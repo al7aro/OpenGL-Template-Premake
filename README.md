@@ -1,11 +1,13 @@
+<img src="https://www.wolframcloud.com/obj/resourcesystem/images/f2d/f2dcb501-fd59-4986-b598-2f30ac56d0ac/6009562e6fbfd7a5.png" align="right" width=150 style="margin:20px"/>
+
 # <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=150 style="margin:0px"/></a> Template
 
-<div style="float: right; margin-right: 25px;">
-  <img src="https://www.wolframcloud.com/obj/resourcesystem/images/f2d/f2dcb501-fd59-4986-b598-2f30ac56d0ac/6009562e6fbfd7a5.png" alt="Yes" width="300">
-</div>
 
-Simple <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=50/></h1></a> template using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>.
-It includes:
+<em>Simple <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=50/></h1></a> template using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>.</em>
+
+---
+
+# Dependencies 📦
 
 - <a href="https://github.com/assimp/assimp"><img src="https://camo.githubusercontent.com/42e0ad409257f3532d48a9ba1c251fe486854891850f8d5b6b82e3cbf16c1336/687474703a2f2f692e696d6775722e636f6d2f757765686f64722e706e67" align="center" width=25/> **ASSIMP**</a>
 - <a href="https://www.glfw.org/"><img src="https://www.glfw.org/img/favicon/favicon-196x196.png" width=30 align="center"/> **GLFW**</a>
@@ -14,7 +16,7 @@ It includes:
 - <a href="https://github.com/nothings/stb">**STB**</a>
 - <a href="https://glad.dav1d.de/"> **GLAD**</a>
 
-# HOW TO USE 🧠
+# How To Use 🧠
 
 1) Create a repo from this template 🪧
 2) Clone the repo on your machine 🖨️
