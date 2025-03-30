@@ -12,13 +12,16 @@ project "AppName"
 
     links {
         "EngineName",
-        "OpenGL32"
     }
 
     includedirs {
+        "%{wks.location}/EngineName/include",
         "%{wks.location}/EngineName/vendor/imgui/imgui",
         "%{wks.location}/EngineName/vendor/glfw/glfw/include",
         "%{wks.location}/EngineName/vendor/glad/glad4.6/include",
         "%{wks.location}/EngineName/vendor/glm/glm",
         "%{wks.location}/EngineName/vendor/stb/stb/include",
+        "%{wks.location}/EngineName/vendor/assimp/assimp/include",
+        "%{wks.location}/EngineName/vendor/assimp/_config_headers/",
+		"%{wks.location}/EngineName/vendor/assimp/_config_headers/assimp/",
     }

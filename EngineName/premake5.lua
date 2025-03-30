@@ -6,11 +6,13 @@ project "EngineName"
     objdir "%{wks.location}/build/bin/%{cfg.buildcfg}/EngineName"
 
     files {
+        "include/*.hpp",
         "src/**.hpp",
         "src/**.cpp"
     }
 
     links {
+        "OpenGL32",
         "glad",
         "glfw",
         "imgui",
@@ -25,8 +27,8 @@ project "EngineName"
         "vendor/glm/glm",
         "vendor/stb/stb/include",
         "vendor/assimp/assimp/include",
-        'vendor/assimp/assimp/_config_headers/',
-		'vendor/assimp/assimp/_config_headers/assimp/',
+        'vendor/assimp/_config_headers/',
+		'vendor/assimp/_config_headers/assimp/',
     }
 
 group "vendor"
