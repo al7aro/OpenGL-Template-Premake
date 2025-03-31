@@ -3,7 +3,7 @@
 # <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=150 style="margin:0px"/></a> Template
 
 
-<em>Simple <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=50/></h1></a> template using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>.</em>
+<em>Simple <a href="https://www.opengl.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Opengl-logo.svg" align="center" width=50/></h1></a> template using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a> **/** <a href="https://cmake.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cmake.svg/2048px-Cmake.svg.png" width=25 align="center"/> **cmake**</a>.</em>
 
 ---
 
@@ -28,25 +28,25 @@ git clone [repo-url]
 git submodule init
 git submodule update
 ```
-- Build the project using <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>
-   - Windows 🪟
-```sh
-.\scripts\premake5.exe vs2022
-```
+- Build the project using:
+  - <a href=""><img src="https://premake.github.io/img/premake-logo.png" align="center" width=25/> **premake5**</a>
+     - Windows 🪟
+    ```sh
+    .\scripts\premake5.exe vs2022
+    ```
+  
+  - <a href="https://cmake.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cmake.svg/2048px-Cmake.svg.png" width=25 align="center"/> **cmake**</a>
+
+  ```sh
+  mkdir build
+  cd build
+  cmake ..
+  ```
 
 - <a href=""><img src="https://cdn-icons-png.flaticon.com/256/8819/8819105.png" align="center" width=200/></a>
-
-# QILTBA (Questions I'd like to be asked) 🤙😞
-
-- Why `premake5`?
-  - Simple: `CMake` is ugly 🤮
-- Why `in-source` build?
-  - I don't really thing this is `in-source` building 🤬
 
 ---
 
 # TODO 🤯
-- [ ] In general, work on the `premake5` script to make it **better**
-- [ ] Create `premake5` configurations
-- [ ] Assimp config depends on the system (maybe)
-- [ ] Glad version should change depending on the system
+- [ ] Config `premake5` to work on MacOS 🍏
+- [ ] Clean up <a href="https://cmake.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cmake.svg/2048px-Cmake.svg.png" width=25 align="center"/> **cmake**</a> files 🧹
