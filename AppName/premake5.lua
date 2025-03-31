@@ -1,17 +1,31 @@
 project "AppName"
     kind "ConsoleApp"
     language "C++"
+    cppdialect "C++23"
 
     targetdir "%{wks.location}/build/bin/%{cfg.buildcfg}/AppName"
-    objdir "%{wks.location}/build/bin/%{cfg.buildcfg}/AppName"
+    objdir "%{wks.location}/build/bin/%{cfg.buildcfg}/AppName/obj"
 
     files {
         "src/**.hpp",
         "src/**.cpp"
     }
 
+    filter "system:windows"
+        links { "OpenGL" }
+    filter "system:linux"
+        links { "GL" }
+    filter "system:macosx"
+        links { "-framework OpenGL" }
+    filter {}
+
     links {
+        "GL",
         "EngineName",
+        "imgui",
+        "glfw",
+        "X11",
+        "glad",
     }
 
     includedirs {

@@ -4,7 +4,7 @@ project "imgui"
 	language "C++"
 
     targetdir "%{wks.location}/build/bin/%{cfg.buildcfg}/vendor/imgui"
-    objdir "%{wks.location}/build/bin/%{cfg.buildcfg}/vendor/imgui"
+    objdir "%{wks.location}/build/bin/%{cfg.buildcfg}/vendor/glfw/imgui"
 
 	files {
 		dir .. "imconfig.h",
