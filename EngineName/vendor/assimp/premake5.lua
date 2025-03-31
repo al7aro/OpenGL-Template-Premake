@@ -54,6 +54,10 @@ project 'assimp'
 		'assimp/contrib/utf8cpp/source',
 	}
 	files {
+		-- Dependencies
+		'assimp/contrib/unzip/**',
+		'assimp/contrib/irrXML/**',
+		'assimp/contrib/zlib/*',
 		-- Common
 		'assimp/code/Common/**',
 		'assimp/code/PostProcessing/**',
@@ -147,11 +151,3 @@ project 'assimp'
         'ASSIMP_BUILD_NO_USD_EXPORTER',
         'ASSIMP_BUILD_NO_PBRT_EXPORTER'
 	}
-
-	filter "system:windows"
-		files {
-			-- Dependencies
-			'assimp/contrib/unzip/**',
-			'assimp/contrib/irrXML/**',
-			'assimp/contrib/zlib/*',
-		}
