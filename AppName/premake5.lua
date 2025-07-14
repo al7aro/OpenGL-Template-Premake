@@ -12,19 +12,17 @@ project "AppName"
     }
 
     filter "system:windows"
-        links { "OpenGL" }
+        links { "opengl32" }
     filter "system:linux"
-        links { "GL" }
+        links { "GL", "X11" }
     filter "system:macosx"
         links { "-framework OpenGL" }
     filter {}
 
     links {
-        "GL",
         "EngineName",
         "imgui",
         "glfw",
-        "X11",
         "glad",
     }
 
